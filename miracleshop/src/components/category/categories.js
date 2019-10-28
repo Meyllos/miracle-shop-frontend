@@ -1,19 +1,19 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Category = () => {
     return (
       <>
         <div className="categories">
-        <a href="/" className="active">Home</a>
-        <a href="/">Cake</a>
-        <a href="/">Snacks</a>
-        <a href="/">Jus</a>
-        <a href="/">Beer</a>
-        <a href="/">Car/ Bike</a>
-        <a href="/">House</a>
-        <a href="/">Chair</a>
-        <a href="/">More...</a>
+          <Link to="/" className="active">Home</Link>
+          <Link to="/">Cake</Link>
+          <Link to="/">Snacks</Link>
+          <Link to="/">Jus</Link>
+          <Link to="/">Beer</Link>
+          <Link to="/">Car/ Bike</Link>
+          <Link to="/">House</Link>
+          <Link to="/">Chair</Link>
+          <Link to="/">More...</Link>
         </div>
       </>
     );
